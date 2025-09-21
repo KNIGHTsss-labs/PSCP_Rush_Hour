@@ -11,16 +11,16 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 """ Graphics Stuff """
-icon_image = pygame.image.load("Graphics/cats.jpg")
-terrain_image = "Graphics/floor.jpg"
-player_image = "Graphics/cats.jpg"
-roof_image = "Graphics/roof.jpg"
+icon_image = pygame.image.load("PSCP_Rush_Hour/Graphics/cats.jpg")
+terrain_image = "PSCP_Rush_Hour/Graphics/floor.jpg"
+player_image = "PSCP_Rush_Hour/Graphics/amongus.png"
+roof_image = "PSCP_Rush_Hour/Graphics/roof.jpg"
 obstacle_images_paths = [
-    "Graphics/cats.jpg",
-    "Graphics/obstacle.jpg",  # top-half hitbox
-    "Graphics/cats.jpg",
-    "Graphics/cats.jpg",  # hanging
-    "Graphics/cats.jpg"
+    "PSCP_Rush_Hour/Graphics/cats.jpg",
+    "PSCP_Rush_Hour/Graphics/obstacle.jpg",  # top-half hitbox
+    "PSCP_Rush_Hour/Graphics/cats.jpg",
+    "PSCP_Rush_Hour/Graphics/cats.jpg",  # hanging
+    "PSCP_Rush_Hour/Graphics/cats.jpg"
 ]
 
 pygame.init()
