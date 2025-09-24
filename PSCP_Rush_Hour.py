@@ -24,8 +24,8 @@ obstacle_images_paths = [
 ]
 
 # NEW: optional graphics for gun and bullet (fallback handled later)
-gun_image_path = "PSCP_Rush_Hour/Graphics/gun.png"
-bullet_image_path = "PSCP_Rush_Hour/Graphics/bullet.png"
+gun_image_path = "PSCP_Rush_Hour/Graphics/gun.jpg"
+bullet_image_path = "PSCP_Rush_Hour/Graphics/fireball.png"
 
 pygame.init()
 
@@ -219,7 +219,7 @@ class Bullet:
         # try load image, fallback to simple rect
         try:
             img = pygame.image.load(bullet_image_path).convert_alpha()
-            self.image = pygame.transform.scale(img, (20, 8))
+            self.image = pygame.transform.scale(img, (20, 20))
             self.rect = self.image.get_rect(center=(x, y))
         except Exception:
             self.image = None
